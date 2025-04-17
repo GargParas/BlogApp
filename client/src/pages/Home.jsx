@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Navbar from '../components/navbar'
 import { getToken } from '../services/config'
 import { useNavigate } from 'react-router'
+import '../App.css'
 
 function Home() {
 
@@ -23,7 +24,10 @@ function Home() {
   return (
     <div>
       <Navbar />
-      <h1 className='page-header'>This is home page</h1>
+      <div className="home-page">
+        <div className="container text-center text-light">
+        </div>
+      </div>
     </div>
   )
 }
