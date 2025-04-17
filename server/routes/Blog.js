@@ -16,6 +16,7 @@ router.get('/viewAllBlogs', (req, res) => {
     const sql = `SELECT b.bId as bId, 
     b.title as title, 
     c.title as category,
+    b.contents as content,
     DATE_FORMAT(b.createdTimestamp, '%d-%m-%Y %H:%i:%s') AS date,
     u.fullName as author FROM blog b, categories c, user u 
     where b.uId = u.uId AND b.cId = c.cId`
