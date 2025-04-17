@@ -25,7 +25,7 @@ function Navbar() {
 
   return (
     <nav
-      className='navbar navbar-expand-lg bg-primary'
+      className='navbar navbar-expand-lg bg-dark bg-body-tertiary'
       data-bs-theme='dark'
     >
       <div className='container-fluid'>
