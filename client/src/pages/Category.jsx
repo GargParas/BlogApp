@@ -50,7 +50,7 @@ function Category() {
   return (
     <div>
       <Navbar />
-      <h1 className="page-header">This is category page</h1>
+      <h1 className="page-header">Add Categories</h1>
 
       <div className='container'>
 
